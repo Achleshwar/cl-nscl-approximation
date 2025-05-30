@@ -7,8 +7,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/cl-nscl-approximation' : '',
-  assetPrefix: isProd ? '/cl-nscl-approximation/' : '',
 }
 
 export default nextConfig
